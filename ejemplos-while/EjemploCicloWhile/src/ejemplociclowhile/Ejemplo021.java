@@ -36,6 +36,6 @@ public class Ejemplo021 {
     }
 }
 /*
-generar un ptograma que me permita ingresar un limite por teclado y presentar la suma de todos los numeros impares que existan entre 1 y el limite
+generar un programa que me permita ingresar un limite por teclado y presentar la suma de todos los numeros impares que existan entre 1 y el limite
 
 */

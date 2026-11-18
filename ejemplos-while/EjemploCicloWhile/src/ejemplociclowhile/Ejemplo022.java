@@ -25,15 +25,28 @@ public class Ejemplo022 {
         while (contador <= limite){
             
             if (contador%2!=0) {
-                System.out.printf("Contador %d\n", 
-                    contador);
+                // impar
+                multiplicar = multiplicar * contador;
+            }else{
+                //par
+                suma = suma + contador;
+                
             }
+            contador = contador + 1;
+            
+                    
+            } 
+            System.out.printf("La suma de pares es %d\n", suma);
             
             contador = contador + 1;
-        }
+        
+       
+        System.out.printf("La suma de pares es %d\n", suma);
+        System.out.printf("La maltuplicacion de impares es %d\n", multiplicar);
+    }
         
     }
-}
-/*
 
+/*
+la suma de los pares y se presente la multiplicacion de los impares
 */
